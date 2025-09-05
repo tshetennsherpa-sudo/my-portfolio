@@ -36,3 +36,52 @@ p {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
+/* Add these new styles to your existing CSS */
+
+.projects {
+    margin: 20px 0;
+}
+
+.project {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-left: 4px solid #007acc;
+}
+
+.project h3 {
+    color: #007acc;
+    margin-top: 0;
+}
+
+.experience {
+    margin: 20px 0;
+}
+
+.experience h3 {
+    color: #007acc;
+    margin-bottom: 5px;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Make it responsive for mobile */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    .project {
+        padding: 15px;
+    }
+}
